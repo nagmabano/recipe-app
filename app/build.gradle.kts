@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.learning.myrecipeapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.learning.myrecipeapp"
@@ -52,13 +52,13 @@ android {
 dependencies {
 
     // Compose ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     // Network Call
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     // Json to Kotlin object mapping
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     // Image Loading
-    implementation("io.coil-kt:coil-compose:2.4.0 ")
+    implementation("io.coil-kt:coil-compose:2.4.0")
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
