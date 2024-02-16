@@ -32,7 +32,7 @@ fun RecipeScreen(modifier: Modifier = Modifier) {
                 CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
             }
             viewstate.error != null -> {
-                Text(text = "ERROR OCCURED!!")
+                Text(text = "ERROR OCCURRED!!")
             }
             else -> {
                 // display categories
