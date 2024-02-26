@@ -52,6 +52,10 @@ android {
 
 dependencies {
 
+    // Location/map
+    implementation("com.google.maps.android:maps-compose:2.15.0")
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+
     // Compose ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     // Network Call
